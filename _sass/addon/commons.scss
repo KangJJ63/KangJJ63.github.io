@@ -690,7 +690,10 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: var(--sidebar-bg);
+  background:url('/assets/img/background/background.jpg');
+  background-size:100% 100%;
+  background-position: center;
+  // background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -714,8 +717,8 @@ $btn-mb: 0.5rem;
 
   #avatar {
     display: block;
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
@@ -751,13 +754,13 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: var(--site-title-color);
+      color: rgb(255, 255, 255, 0.95);;
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--site-subtitle-color);
+    color: rgb(255, 255, 255, 0.95);;
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -782,7 +785,7 @@ $btn-mb: 0.5rem;
         align-items: center;
         border-radius: 0.75rem;
         font-weight: 600;
-
+        color : rgb(255, 255, 255, 0.95);
         &:hover {
           background-color: var(--sidebar-hover-bg);
         }
@@ -821,7 +824,7 @@ $btn-mb: 0.5rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
 
-    $btn-size: 1.75rem;
+    $btn-size: 3rem;
 
     %button {
       width: $btn-size;
