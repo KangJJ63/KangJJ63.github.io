@@ -1,7 +1,7 @@
 ---
 title : 파이썬 자료구조 - 스택,큐,덱
 date : 2024-01-20 00:00:00 +09:00
-categories : [자료구조]
+categories : [스터디,자료구조]
 tags : [큐,스택,덱,python]
 toc : True
 pin : True
