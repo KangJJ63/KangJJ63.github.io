@@ -19,7 +19,7 @@ title: Kang's Blog # the main title
 tagline: Towards a great data engineer! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Kangs' Blog
+  데이터 엔지니어가 되기 위해 부트캠프를 수강하여 파이썬·데이터 분석·엔지니어링에 대해 공부하고 있습니다. 지금 그리고 미래의 본인을 위해 공부 흔적을 기록하고자 합니다. 
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
